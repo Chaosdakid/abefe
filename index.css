@@ -1,0 +1,702 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-header{
+   display: flex;
+   background-color: white;
+   padding: 10px 10%;
+   justify-content: space-between;
+   border-bottom: 2px solid rgba(0, 0, 0, 0.568);
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+header .logo{
+    padding: 0 10px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+main{
+    height: 70vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url(/img/black-burger.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.home button{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 9px 30px;
+    margin-top: 15px;
+    font-size: 1.3em;
+}
+.main-logo{
+    width: 150px;
+    height: 150px;
+    background-image: url(/img/yellow-cube.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+    border: 5px solid white;
+}
+
+.home h1{
+    font-size: 4.2em;
+    padding: 0.5em 0;
+}
+
+.home p{
+    width: 50%;
+    font-style: oblique;
+    font-size: 1.5em;
+}
+
+html{
+scroll-behavior: smooth;
+}
+
+#page2{
+    background-color: rgba(250, 235, 215, 0.501);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+#page2 .bread-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 0;
+}
+
+#page2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bread-1 h1{
+    font-size: 4em;
+}
+
+.bread-1 h2{
+    font-size: 4em;
+}
+
+.bread-1 p{
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 25px;
+    width: 60%;
+}
+
+.bread-2, .bread-3{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.bread-2{
+    margin-bottom: 3em;
+}
+
+#page2 .ourbread, .b-p-img{
+    width: 230px;
+    height: 230px;
+    border: 5px solid red;
+    border-radius: 200px;
+    border: none;
+}
+
+.ourbread-1{
+    background-image: url(./img/black-burger.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ourbread-2{
+    background-image: url(./img/yellow-cube.jpg);
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ourbread-3{
+    background-image: url(./img/burger-coke.jpg);
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ourbread-4{
+    background-image: url(./img/black-burger.JPG);
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ourbread-5{
+    background-image: url(./img/burger-coke.jpg);
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ourbread-6{
+    background-image: url(./img/yellow-cube.jpg);
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bread-2{
+    text-align: center;
+}
+
+.bread-3{
+    text-align: center;
+}
+
+.bread-2 h3, .bread-3 h3{
+    padding: 15px 0 ;
+}
+
+.bread-2 p, .bread-3 p{
+    padding-top:0 0 20px 0;
+    color: gray;
+}
+.bread-2 h4, .bread-3 h4{
+    padding: 15px 0 ;
+    height: auto;
+    color: grey;
+}
+
+#page3{
+    min-height: 80vh;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#head2{
+    padding: 10px 10%;
+    color: white;
+    text-align: center; 
+}
+
+.brown-pastries{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 10px;
+}
+
+.brown-pastries div{
+    flex-basis: 18%;
+    background-color: #fff;
+    text-align: center;
+    padding: 2em 1em;
+}
+
+.bp-img-1{
+    background-image: url(/img/black-burger.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bp-img-2{
+    background-image: url(./img/burger-coke.jpg);
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bp-img-3{
+    background-image: url(./img/burger-coke.jpg);
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bp-img-4{
+    background-image: url(./img/yellow-cube.jpg);
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bp-img-5{
+    background-image: url(./img/black-burger.JPG);
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bp-img-6{
+    background-image: url(./img/burger-coke.jpg);
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bp-img-7{
+    background-image: url(./img/Section-1.png);
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bp-img-8{
+    background-image: url(./img/yellow-cube.jpg);
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.b-p-img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid red;
+    border-radius: 200px;
+    border: none;
+}
+
+.brown-pastries h3{
+    padding: 15px 0;
+}
+
+.brown-pastries p{
+    width: 90%;
+    font-size: 2ch;
+    color: #555;
+}
+
+.brown-pastries a{
+    text-decoration: none;
+    border-bottom: 1px solid #555;
+    margin-top: 25px;
+}
+
+.page4{
+background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./img/burger-coke.jpg); 
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+min-height: 50vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 3em 0;
+}
+
+#sweets{
+    color: white;
+    padding: 0 0 3em 0;
+    font-size: 1.5em;
+}
+
+.c-s-o{
+    display: flex;
+    column-gap: 20px;
+}
+
+.c-s-o section{
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 7px;
+}
+
+.c-s-o h3{
+    font-size: 1.7em;
+    padding-bottom: 20px;
+}
+
+.c-s-o ul{
+    list-style: '-';
+    padding: 10px;
+}
+
+.c-s-o li{
+    font-size: 1.3em;
+    color: #444;
+    line-height: 25px;
+}
+
+#wewouldliketohearfromyou{
+    min-height: 60vh;
+    background-color: bisque;
+    display: flex;
+    padding: 5em 0;
+}
+
+.hear{
+    display: flex;
+    width: 50%;
+    margin:  0 auto;
+}
+
+.hear-img{
+    /* min-height: ; */
+    background-image: url(/img/kung-fu\ panda.jpeg);
+    flex-basis: 40%;
+    background-position: center;
+    background-size: cover;
+}
+
+.hear-text{
+flex-basis: 60%;
+background-color: white;
+/* padding: 50px 20px; */
+}
+
+.hear-text h1{
+    font-size: 2.5em;
+    padding-bottom: 0.4em;
+}
+
+.hear-text p{
+    color: #222;
+    padding: 0.5em 0;
+    margin-left: 10px;
+    font-size: 1.1em;
+    line-height: 20px
+}
+
+.hear-text h5{
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+#bcp-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    position: absolute;
+    top: -60px;
+}
+
+#bcp-wrapper div{
+    flex-basis: 20%;
+}
+
+.bcp-img{
+    width: 100%;
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.bcp-img-1{
+    background-image: url(/img/black-burger.JPG);
+}
+
+.bcp-img-2{
+    background-image: url(/img/black-burger.JPG);
+}
+
+.bcp-img-3{
+    background-image: url(/img/black-burger.JPG);
+}
+
+#bcp-wrapper h2{
+    padding: 16px 0;
+    font-size: 2em;
+}
+
+#bcp-wrapper p{
+    font-size: 1.2em;
+    line-height: 20px;
+}
+
+.bread-cp{
+    position: relative;
+}
+
+footer{
+    background-color: black;
+    padding: 2em 0;
+    position: relative;
+    margin-top: 36%;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer-img{
+    width: 150px;
+    height: 150px;
+    background-image: url(/img/yellow-cube.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+    border: 5px solid white;
+}
+
+.footertxt{
+    display: flex;
+    gap: 150px;
+    padding: 3.5em 0 0 0;
+}
+
+.footertxt h3{
+    color: white;
+    padding-bottom: 1em;
+}
+
+.footertxt p a{
+    color: #aaa;
+    line-height: 20px;
+}
+
+.randomlogolinks{
+    color: white;
+    font-size: 46px;
+}
+
+small{
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18npx;
+}
+
+@media(max-width:1024px){
+    #page2{
+        background-color: lightsalmon;
+    }
+    .bread-2, .bread-3{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    #page2 .ourbread{
+        width: 350px;
+        height: 350px;
+    }
+
+    .bread-1 h2{
+        font-size: 5vw;
+    }
+
+    .bread-2 h3, .bread-3 h3{
+        padding: 15px 0;
+        font-size: 4vw;
+    }
+
+    .bread-2 p, .bread-3p{
+        padding: 15px 0;
+        font-size: 3vw;
+        font-weight: bold;
+    }
+
+    .bread-2 h4, .bread-3 h4{
+        padding: 0 0 25px 0;
+        font-size: 4em;
+        color: #333;
+    }
+
+    /* PAGE 3 */
+
+    .brown-pastries {
+        flex-direction: column;
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .brown-pastries div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .b-p-img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .brown-pastries h3{
+        padding: 15px 0;
+        font-size: 4vw;
+    }
+
+    .brown-pastries p{
+        font-size: 3vw;
+        font-weight: bold;
+    }
+
+    .page4{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 20px;
+    }
+
+    #sweets{
+        color: bisque;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        font-size: 3em;
+    }
+
+    .c-s-o{
+        flex-direction: column;
+        margin: 10px auto;
+    }
+
+    .c-s-o section{
+        width: 80%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .c-s-o h3{
+        font-size: 2.7em;
+        padding-bottom: 9px;
+    }
+
+    .c-s-o li{
+        font-size: 1.7em;
+    }
+
+    #hear{
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        width: 100%;
+        color: #fff !important;
+    }
+
+    #hear p{
+        color: #edf;
+    }
+
+    .hear-img{
+        width: 100%;
+    }
+
+    .hear-text{
+        background-color: #000;
+        width: 100%;
+        flex-basis: 40%;
+        padding: 12px 10px;
+        color:white;
+    }
+
+    .hear-text p{
+        color: white;
+    }
+
+    #hear h5{
+        text-align: center;
+        color: aquamarine;
+    }
+
+    #bcp-wrapper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        top: 10px;
+    }
+
+    #bcp-wrapper h2{
+        font-size: 2.4em;
+        padding: 1em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bcp-wrapper p{
+        font-size: 1.3em;
+        line-height: 25px;
+    }
+
+    footer{
+        margin-top: 120%;
+    }
+
+    .footertxt{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:768px){
+    footer{
+        margin-top: 270%;
+    }
+
+    .home p{
+        width: 90%;
+    }
+
+    h1{
+        font-size: 2em !important;
+    }
+
+    h2{
+        font-size: 1.2em !important;
+    }
+
+    h3{
+        font-size: 2.2em !important;
+    }
+
+    h4{
+        font-size: 2em !important;
+    }
+
+    p{
+        font-size: 1em !important;
+    }
+
+    i{
+        font-size: 1.5em !important;
+    }
+
+    #main-header nav{
+        display: none;
+    }
+
+    #text{
+        display: block;
+        color: red;
+    }
+
+    .bread-1 h2{
+        font-size: 6vw !important;
+    }
+
+    #bcp-wrapper 
+    {
+        background-color: #333;
+        color: antiquewhite;
+    }
+
+    #bcp-wrapper p{
+        color: white !important;
+    }
+
+}
